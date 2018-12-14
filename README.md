@@ -31,3 +31,7 @@ When N=20, it takes about 0.8 seconds to perform the sparse multiplication in th
 ## Discussion and Conclusion:
 
 The plots for N=6 show the entanglement increasing up to around 2.5, which is close to the expected value of 3. The increase in entanglement should be linear with time, but is  not due to the loss of normalization shown in the plots of Norm vs time. It is clear from looking at the plots that the linearity increases as the timestep decreases and the norm is better preserved. The code in "Evolution and entanglement of a system of N spins.ipynb" includes code to plot the entanglement vs time of N=20 spins until the system become maximally entangled, but it was not run due to time constraints.
+
+## Works Cited:
+
+The course notes: https://github.com/eschnett/2018-computational-physics-course/tree/master/exact-diagonalization-module
