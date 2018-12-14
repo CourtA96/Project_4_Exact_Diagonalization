@@ -14,6 +14,14 @@ Starting in a separable state, the entanglement of the system should increase wi
 
 The following are plots of the evolution of the entanglement for N=6 spins:
 
+![](https://raw.githubusercontent.com/CourtA96/Project_4_Exact_Diagonalization/master/Time%20vs%20Entanglement%20N%2020%20dt%200.001.png)
+![](https://raw.githubusercontent.com/CourtA96/Project_4_Exact_Diagonalization/master/Time%20vs%20Entanglement%20N%206%20dt%200.0001.png)
+
+And the following are plots of the norm as the N=6 system evolves:
+
+![](https://raw.githubusercontent.com/CourtA96/Project_4_Exact_Diagonalization/master/Time%20vs%20Norm%20N%206%20dt%200.001.png)
+![](https://raw.githubusercontent.com/CourtA96/Project_4_Exact_Diagonalization/master/Time%20vs%20Norm%20N%206%20dt%200.0001.png)
+
 The following is a plot demonstrating that the code works for N=20 spins:
 
 When N=20, it takes about 0.8 seconds to perform the sparse multiplication in the timestep and 0.4 seconds to compute the entanglement entropy. So the above plot only shows the first 100 timesteps instead of the time it takes to achieve maximum entanglement, that would take a significant amount of time.
