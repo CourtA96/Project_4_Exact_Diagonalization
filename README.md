@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The following code computes the time evolution of a system of N spins to see how this evolution affects entanglement. More precisely, it take an initially unentangled state, Psi, and evolves it over time, computing the Von Neumann entropy at each timestep. The Von Neumann entropy of a reduced density matrix, is a measure of the entanglement of the system. If a system is separable, it is not entangled and therefore it's Von Neumann entropy is zero.
+The code in "Evolution and entanglement of a system of N spins.ipynb" computes the time evolution of a system of N spins to see how this evolution affects entanglement. More precisely, it take an initially unentangled state, Psi, and evolves it over time, computing the Von Neumann entropy at each timestep. The Von Neumann entropy of a reduced density matrix, is a measure of the entanglement of the system. If a system is separable, it is not entangled and therefore it's Von Neumann entropy is zero.
 
-Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled. In the following code, the reduced density matrix is includes half of the spins, so the maximum entanglement should be 0.5N
+Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled. In the following code, the reduced density matrix is includes half of the spins, so the maximum entanglement should be 0.5N.
 
 The system evolves according to the Hamiltonian. The first term in the Hamiltonian is the Ising Model. The evolution is computed using sparse multiplication.
 
-Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled, the code below shows.
+Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled, the code in "Evolution and entanglement of a system of N spins.ipynb" shows.
 
 ## Results
 
@@ -30,7 +30,7 @@ When N=20, it takes about 0.8 seconds to perform the sparse multiplication in th
 
 ## Discussion and Conclusion:
 
-The plots for N=6 show the entanglement increasing up to around 2.5, which is close to the expected value of 3. The increase in entanglement should be linear with time, but is  not due to the loss of normalization shown in the plots of Norm vs time. It is clear from looking at the plots that the linearity increases as the timestep decreases and the norm is better preserved. The code in "Evolution and entanglement of a system of N spins.ipynb" includes code to plot the entanglement vs time of N=20 spins until the system become maximally entangled, but it was not run due to time constraints.
+The plots for N=6 show the entanglement increasing up to around 2.5, which is close to the expected value of 3. However, the decrease in timestep appears to be affecting the time the system takes to achieve maximum entropy, which should not be occurring. The increase in entanglement should also be linear with time, but is  not due to the loss of normalization shown in the plots of Norm vs time. It is clear from looking at the plots that the linearity increases as the timestep decreases and the norm is better preserved. The code in "Evolution and entanglement of a system of N spins.ipynb" includes code to plot the entanglement vs time of N=20 spins until the system become maximally entangled, but it was not run due to time constraints.
 
 ## Works Cited:
 
