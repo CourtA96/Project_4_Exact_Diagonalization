@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The code in "Evolution and entanglement of a system of N spins.ipynb" computes the time evolution of a system of N spins to see how this evolution affects entanglement. More precisely, it take an initially unentangled state, Psi, and evolves it over time, computing the Von Neumann entropy at each timestep. The Von Neumann entropy of a reduced density matrix, is a measure of the entanglement of the system. If a system is separable, it is not entangled and therefore it's Von Neumann entropy is zero.
+The code in "Evolution and entanglement of a system of N spins.ipynb" computes the time evolution of a system of N spins to see how this evolution affects entanglement. More precisely, it take an initially unentangled state, Psi, and evolves it over time, computing the Von Neumann entropy at each timestep. The Von Neumann entropy of a reduced density matrix is a measure of the entanglement of the system. If a system is separable, it is not entangled and therefore it's Von Neumann entropy is zero.
 
-Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled. In the following code, the reduced density matrix is includes half of the spins, so the maximum entanglement should be 0.5N.
+Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled. In the following code, the reduced density matrix includes half of the spins, so the maximum entanglement should be 0.5N.
 
 The system evolves according to the Hamiltonian. The first term in the Hamiltonian is the Ising Model. The evolution is computed using sparse multiplication.
 
-Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled, the code in "Evolution and entanglement of a system of N spins.ipynb" shows.
+Starting in a separable state, the entanglement of the system should increase with time until the system is fully entangled, as the code in "Evolution and entanglement of a system of N spins.ipynb" shows.
 
 ## Results
 
